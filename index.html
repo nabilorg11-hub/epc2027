@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EPC 2027 | Essay & Panel Competition | Mafiq Foundation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f8f9;--sf:#fff;--tx:#17232e;--mu:#51616f;--br:#d5dde3;--navy:#0f2a43;--teal:#17806f;--amb:#f2b632;--hero:#0f2a43;--heroTx:#f6f8f9;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1620;--sf:#15222f;--tx:#e8eef2;--mu:#9fb0bd;--br:#27394a;--navy:#e8eef2;--teal:#43c2ae;--hero:#15222f}}
+:root[data-theme="dark"]{--bg:#0d1620;--sf:#15222f;--tx:#e8eef2;--mu:#9fb0bd;--br:#27394a;--navy:#e8eef2;--teal:#43c2ae;--hero:#15222f}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.6 "Source Sans 3",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.15;margin:0 0 .5em}
+h1{font-size:clamp(2.2rem,6vw,3.8rem);font-weight:800}h2{font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:700}h3{font-size:1.2rem;font-weight:700}
+a{color:var(--teal)}p{margin:0 0 1em;max-width:68ch}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--sf);border-bottom:1px solid var(--br)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--sf);z-index:30}
+.bar{max-width:1100px;margin:auto;padding:.6rem 1.2rem;display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;align-items:center}
+.logo{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;color:var(--navy);text-decoration:none;font-size:1.2rem;margin-right:auto}
+nav{display:flex;flex-wrap:wrap;gap:.2rem .9rem}nav a{color:var(--tx);text-decoration:none;font-weight:600;font-size:.95rem;padding:.25rem 0;border-bottom:2px solid transparent}
+nav a[aria-current="page"]{border-color:var(--amb)}nav a:hover{border-color:var(--teal)}
+.btn{display:inline-block;background:var(--amb);color:#17232e;font-weight:700;text-decoration:none;padding:.65rem 1.2rem;border-radius:6px}
+.btn.alt{background:transparent;color:inherit;border:2px solid currentColor}
+a:focus-visible,button:focus-visible{outline:3px solid var(--amb);outline-offset:2px}
+main{max-width:1100px;margin:auto;padding:0 1.2rem 3rem}
+section[data-v]{display:none;padding-top:2.5rem}section[data-v].on{display:block}
+.hero{background:var(--hero);color:var(--heroTx);margin:0 -1.2rem;padding:3.5rem 1.2rem}
+.hero p{font-size:1.15rem;color:inherit;opacity:.92}.hero .row{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.5rem}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1px;background:var(--br);border:1px solid var(--br);margin:2rem 0}
+.facts div{background:var(--sf);padding:1rem 1.2rem}.facts b{display:block;color:var(--mu);font-weight:600;font-size:.9rem}.facts span{font-weight:700;font-size:1.1rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.2rem}
+.card{background:var(--sf);border:1px solid var(--br);padding:1.3rem;border-radius:4px}.card.k{border-left:5px solid var(--teal)}
+.note{background:var(--sf);border-left:5px solid var(--amb);padding:1rem 1.2rem;margin:1.2rem 0}
+.tw{overflow-x:auto;border:1px solid var(--br);background:var(--sf)}table{border-collapse:collapse;width:100%;min-width:620px}
+th,td{text-align:left;padding:.6rem .8rem;border-bottom:1px solid var(--br);vertical-align:top}th{background:var(--bg);font-family:"Bricolage Grotesque",sans-serif}
+ul{padding-left:1.2rem;max-width:68ch}li{margin-bottom:.4rem}
+details{background:var(--sf);border:1px solid var(--br);padding:.8rem 1.1rem;margin-bottom:.6rem}summary{cursor:pointer;font-weight:600}
+blockquote{margin:0;font-size:1rem}.who{color:var(--mu);font-size:.9rem;margin-top:.6rem}
+footer{border-top:1px solid var(--br);background:var(--sf);padding:1.5rem 1.2rem;text-align:center;color:var(--mu);font-size:.95rem}
+.soon{color:var(--mu);font-style:italic}
+@media (max-width:700px){.bar{padding:.5rem 1rem;gap:.2rem .6rem}.logo{font-size:1.1rem}.bar>.btn{padding:.4rem .9rem;font-size:.95rem}nav{order:3;flex:0 0 100%;flex-wrap:nowrap;overflow-x:auto;gap:.2rem 1.1rem;scrollbar-width:none;-webkit-overflow-scrolling:touch}nav::-webkit-scrollbar{display:none}nav a{white-space:nowrap;flex:none}.hero{padding:2.2rem 1.2rem}section[data-v]{padding-top:1.5rem}}
+@media (prefers-reduced-motion:no-preference){.hero h1{animation:rise .7s ease-out both}@keyframes rise{from{opacity:0;transform:translateY(14px)}}}
+</style>
+</head>
+<body>
+<header><div class="bar"><a class="logo" href="#home">EPC 2027</a>
+<nav aria-label="Main">
+<a href="#home">Home</a><a href="#format">Form &amp; Format</a><a href="#theme">Theme</a><a href="#impromptu">Impromptu</a><a href="#workshops">Workshops</a><a href="#resources">Resources</a><a href="#past">Past EPCs</a></nav>
+<a class="btn" href="https://mafiq.org/epc-registration/">Register</a></div></header>
+<main>
+
+<section data-v="home"><div class="hero"><p>Essay &amp; Panel Competition · Mafiq Foundation</p>
+<h1>EPC 2027: The Art of Patience</h1>
+<p>Finding purpose in a world that never slows down. A competition that builds writing, public speaking, critical thinking and leadership for students in Grades 1–12.</p>
+<div class="row"><a class="btn" href="https://mafiq.org/epc-registration/">Register by January 9, 2027</a><a class="btn alt" href="#format">See the format</a></div></div>
+<div class="facts"><div><b>Registration closes</b><span>January 9, 2027</span></div><div><b>Contest day</b><span>January 23, 2027</span></div><div><b>Venue</b><span>ISB, Baltimore, MD</span></div><div><b>Open to</b><span>Grades 1–12</span></div></div>
+<h2>What is EPC?</h2>
+<p>EPC is an annual forum where young Muslims sharpen their writing, speaking and thinking while reflecting on the role of faith in today’s world. Students compete in essays and speeches, extemporaneous writing and impromptu speaking.</p>
+<p>The top five winners in each of the six levels receive cash awards of $25 to $100, plus certificates and trophies. Their essays may be published in <i>Young Muslim Voices</i>, available on Amazon. Every other participant receives a certificate and a trophy.</p>
+<div class="row" style="display:flex;gap:.8rem;flex-wrap:wrap;margin-bottom:2.5rem"><a class="btn" href="https://mafiq.org/epc-registration/">Register here</a><a class="btn alt" style="color:var(--teal)" href="https://mafiq.org/submit-essay/">Submit essay (Levels 1–3)</a></div>
+<h2>Testimonials</h2>
+<div class="grid">
+<div class="card k"><blockquote>I can credit Mafiq Foundation for helping me find my love for writing. They take all the winning submissions and publish a book every year.</blockquote><p class="who">Arif Kabir, former participant</p></div>
+<div class="card k"><blockquote>I’ve been involved in EPC and debate clubs since 4th grade. These programs solidified my confidence in public speaking, and I use those skills in my professional life.</blockquote><p class="who">Imam Bashar Arafat, former participant</p></div>
+<div class="card k"><blockquote>EPC has played a crucial role in my kids’ development. It built their confidence, writing styles and public speaking skills.</blockquote><p class="who">Anum Shami, parent</p></div>
+<div class="card k"><blockquote>I judged the art and media submissions. I want to help the youth of our community interact with other Muslims their age.</blockquote><p class="who">Hussein Aligabi, judge</p></div></div>
+<h2 style="margin-top:2.5rem">Questions</h2>
+<details><summary>Who can take part?</summary><p>Students in Grades 1–12.</p></details>
+<details><summary>Do I need to attend in person?</summary><p>Levels 1–3 attend the in-person speech contest at ISB. For Levels 4 and above, DMV-area students attend in person at ISB and students from outside the DMV join through Zoom.</p></details>
+<details><summary>Is there a workshop to help me prepare?</summary><p>Yes. Four free Zoom workshops run from November to January. See the <a href="#workshops">workshop schedule</a>.</p></details>
+<details><summary>Who do I contact?</summary><p><a href="mailto:info@mafiq.org">info@mafiq.org</a></p></details>
+</section>
+
+<section data-v="format"><h1>Form &amp; Format</h1>
+<p>All students compete on January 23, 2027. What you do depends on your level.</p>
+<div class="grid">
+<div class="card k"><h3>Levels 1–3 (Grades 1–6)</h3><p>These levels follow the format of previous years. Submit an essay by the deadline, then attend the in-person speech contest at ISB on January 23, 2027.</p><a class="btn" href="https://mafiq.org/submit-essay/">Submit essay</a></div>
+<div class="card k"><h3>Levels 4 and above</h3><p>No essay submission is required. You take part in the impromptu speech and extemporaneous writing contests on January 23, 2027.</p>
+<ul><li><b>DMV area:</b> attend in person at ISB. Virtual participation is not allowed.</li><li><b>Outside the DMV:</b> join through Zoom.</li></ul></div></div>
+<h2 style="margin-top:2.5rem">Rules for virtual participants</h2>
+<ul><li>You get your prompt 5 to 10 minutes before you start, based on your grade level.</li><li>Keep your camera on while you prepare and compete, and work on your own.</li><li>Judges must see your face, upper body and both hands.</li><li>For the speech, you may use index cards. Your hands must stay free except when holding the cards.</li><li>No outside help, AI or other technology.</li></ul>
+<div class="note"><b>Disqualification.</b> Anyone who uses AI or outside help during the impromptu speech or extemporaneous writing is disqualified.</div>
+<p><a href="https://mafiq.org/epc-format-rubric-guidelines/">Full format and rubrics</a> · <a href="https://mafiq.org/epc-code-of-conduct/">Code of conduct</a></p></section>
+
+<section data-v="theme"><h1>The Art of Patience</h1>
+<p>This year’s theme: <b>Finding Purpose in a World That Never Slows Down.</b></p>
+<div class="grid">
+<div class="card k"><h3>Level 1 (Grades 1–2)</h3><p>Write a friendly letter to a family member or friend about a time you had to be patient. Explain what happened, how you felt while waiting and what you learned. How can patience help us in daily life? Include all the parts of a friendly letter.</p></div>
+<div class="card k"><h3>Level 2 (Grades 3–4)</h3><p>Our world encourages us to seek quick results, instant answers and immediate success. Why is patience still important? Discuss how it helps in school, friendships, family relationships and personal growth.</p></div>
+<div class="card k"><h3>Level 3 (Grades 5–6)</h3><p>Modern life rewards immediate results, rapid communication and constant productivity, yet relationships, education, leadership and growth often need patience. Has our obsession with speed caused us to undervalue patience? Consider how patience shapes decisions, relationships and long-term goals, and how faith can guide us toward a more purposeful life.</p></div>
+<div class="card"><h3>Levels 4–6</h3><p class="soon">Prompts for these levels are coming soon. Levels 4 and above receive a prompt at the contest.</p></div></div></section>
+
+<section data-v="impromptu"><h1>Impromptu &amp; Extempore</h1>
+<p>Join the impromptu contest to build the confidence and quick thinking you need for MAFIQ’s premier national debate tournament.</p>
+<h2>Why impromptu speech?</h2>
+<p>Strong speaking skills open doors in any career, from business and law to medicine, public service and entrepreneurship. An impromptu contest is your chance to organize your thoughts under pressure and speak with confidence without preparation. You don’t need to be a great speaker. You just need to be willing to grow.</p>
+<h2>What you get</h2>
+<div class="grid"><div class="card k">A certificate, and the chance to compete for finalist and winner awards.</div><div class="card k">Winners receive an annual title and may join an exclusive workshop or one-on-one session.</div><div class="card k">Personal feedback and a judging rubric to track your communication, critical thinking and confidence.</div><div class="card k">Finalists and winners may be featured on MAFIQ’s social media and in <i>Young Muslim Voices</i>.</div></div>
+<div class="note" style="margin-top:2rem"><b>Extemporaneous writing</b> works the same way: you get a prompt for your grade level 5 to 10 minutes before you start, and you write on your own with your camera on. See the <a href="#format">rules</a>.</div></section>
+
+<section data-v="workshops"><h1>Workshops</h1>
+<p>All times are Eastern. Workshops run on Zoom, and registered participants receive the link.</p>
+<div class="tw"><table><thead><tr><th>Date and time</th><th>Workshop</th><th>Presenter</th></tr></thead><tbody>
+<tr><td>Nov 8, 2026, 2:00 PM</td><td>EPC Basics and Topics Explained</td><td>Doha Nassar</td></tr>
+<tr><td>Nov 15, 2026, 3:00 PM</td><td>The Art of Writing</td><td>Rahma Zakaria</td></tr>
+<tr><td>Dec 6, 2026, 2:00 PM</td><td>The Art of Speech and Presentations</td><td>Ebna Sabit Siam</td></tr>
+<tr><td>Jan 7, 2027, 8:00 PM</td><td>Pitching and Storytelling</td><td>Nassar Chanda</td></tr></tbody></table></div>
+<h2 style="margin-top:2.5rem">Meet the presenters</h2>
+<div class="grid">
+<div class="card"><h3>Doha Nassar</h3><p>Former EPC participant and judge. She teaches second grade in Montgomery County and helps students build leadership and social skills.</p></div>
+<div class="card"><h3>Rahma Zakaria</h3><p>MIT graduate with a Bioengineering PhD from the University of Maryland.</p></div>
+<div class="card"><h3>Ebna Sabit Siam</h3><p>Early college student at Simon’s Rock studying economics and computer science. A two-time national speech champion who mentors and coaches students.</p></div>
+<div class="card"><h3>Nassar Chanda</h3><p>Entrepreneur and business leader who helps Muslim youth become founders and builders.</p></div></div></section>
+
+<section data-v="resources"><h1>Resources</h1>
+<h2>For participants</h2>
+<div class="grid">
+<div class="card k"><h3><a href="https://mafiq.org/epc-code-of-conduct/">Code of conduct</a></h3><p>Rules every participant and parent agrees to follow.</p></div>
+<div class="card k"><h3><a href="https://mafiq.org/epc-format-rubric-guidelines/">Format &amp; rubrics</a></h3><p>The criteria judges use in every event.</p></div>
+<div class="card k"><h3><a href="https://mafiq.org/epc-resources/">Resources &amp; tips</a></h3><p>Tools to help you learn and prepare.</p></div></div>
+<h2 style="margin-top:2.5rem">For judges</h2>
+<div class="card k"><h3><a href="https://mafiq.org/epc-judges-guidelines/">Judges’ guidelines</a></h3><p>Resources to help with the scoring process.</p></div>
+<h2 style="margin-top:2.5rem">Live document</h2>
+<p><a href="https://docs.google.com/document/d/17maw_9wN3JbwWP8udWVbozJUmhs6MoRB/edit">EPC live document</a>: learn, explore and follow updates. An updated edition is coming soon.</p></section>
+
+<section data-v="past"><h1>Past EPCs</h1>
+<p>Winning essays are published each year in <a href="https://www.amazon.com/Young-Muslim-Voices-Vol-Pandemics/dp/0970037279"><i>Young Muslim Voices</i></a> on Amazon.</p>
+<div class="tw"><table><thead><tr><th>Year</th><th>Venue</th><th>Theme</th><th>Volume</th></tr></thead><tbody id="log"></tbody></table></div></section>
+
+</main>
+<footer><b>Mafiq Foundation</b> · P.O. Box 730, Herndon, Virginia 20172, USA · <a href="mailto:info@mafiq.org">info@mafiq.org</a><br>Copyright © 2026 Mafiq Foundation. Dates and details may change.</footer>
+<script>
+var L=[[2026,"Al Fatih Academy, Reston, VA","Faith & Technology: Navigating the Age of AI","Vol 11"],[2025,"ISB, Baltimore, MD","Leadership and Legacy","Vol 11"],[2024,"AHS, College Park, MD","Islam in the Modern World","Vol 11"],[2023,"DCA, Lanham, MD","The Earth: A Gift From Allah","Vol 10"],[2022,"DCA, Lanham, MD","Islam and Mental Health","Vol 10"],[2021,"","Navigating the COVID-19 Pandemic","Vol 10"],[2020,"","The Prophet of Peace and Justice","Vol 10"],[2019,"","Civility, Ethics, & Morality","Vol 9"],[2018,"","Alhamdulillah, I am Muslim","Vol 9"],[2017,"PGMA, Lanham, MD","Faith Through Action","Vol 9"],[2016,"ADAMS Sully, Chantilly, VA","My Life and Belief Online",""],[2015,"DAT, Ellicott City, MD","Managing Conflict",""],[2014,"","Building a Community: Prospering Through Unity",""],[2013,"","Life Hereafter","Vol 6"],[2012,"PGMA, Lanham, MD","Building a Community: Prospering Through Unity","Vol 5"],[2011,"Dar al Noor, MAV, VA","Patience, Perseverance, Steadfastness","Vol 4"],[2010,"ISWA, Silver Spring, MD","Towards a Healthy and Harmonious Family","Vol 3"],[2009,"Dar al Hijra, Fairfax, VA","Leadership","Vol 2"],[2008,"Shady Grove Middle School (ICM), MD","Follow the Signs","Vol 1"],[2007,"ADAMS Center, Sterling, VA","Dawah",""],[2006,"DAT, Ellicott City, MD","Read the Quran: Lead the World",""],[2005,"Fairfax Gov’t Center, VA","",""],[2004,"DAT, Ellicott City, MD","",""],[2003,"MCC","",""],[2002,"Silver Spring Community Center, MD","",""],[2001,"","",""]];
+document.getElementById("log").innerHTML=L.map(function(r){return"<tr><td>"+r[0]+"</td><td>"+r[1]+"</td><td>"+r[2].replace("&","&amp;")+"</td><td>"+r[3]+"</td></tr>"}).join("");
+var V=[].slice.call(document.querySelectorAll("section[data-v]")),N=[].slice.call(document.querySelectorAll("nav a"));
+function show(){var h=(location.hash||"#home").slice(1),f=V.some(function(s){return s.dataset.v===h})?h:"home";
+V.forEach(function(s){s.classList.toggle("on",s.dataset.v===f)});
+N.forEach(function(a){if(a.getAttribute("href")==="#"+f)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});window.scrollTo(0,0)}
+window.addEventListener("hashchange",show);show();
+</script>
+</body>
+</html>
